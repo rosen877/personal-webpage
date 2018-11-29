@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, min-scale=1, max-scale=1, shrink-to-fit=no">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,shrink-to-fit=no">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<input type="checkbox" id="maue_control">
+	<header>
+		<h1 class="header_logo">
+			<a href="index.html">
+				<img class="logo" id="logo" src="img/logo.png" alt="4eyes">
+			</a>
+		</h1>
+		<label class="hb" for="maue_control"><span class="hb_line"></span></label>
+	</header>
+
+	<nav>
+		<ul class="nav_content ">
+			<li class="nav_font"><a href="news.html">最新消息</a> </li>
+			<li class="nav_font eyes"><a href="index.html">眼鏡</a></li>
+			<li class="nav_logo">
+				<h1>
+					<a href="index.html">
+						<img class="logo_navPic" src="img/logo.png" alt="4eyes">
+					</a>
+				</h1>
+			</li>
+			<li class="nav_font"><a href="add.html"> 門市資訊</a></li>
+			<li class="nav_font"><a href="cell.html">聯絡我們</a></li>
+		</ul>
+	</nav>
+	<div class="mgbox"></div>
+	<div class="news_item ">
+		<div class="wrapper">
+			<div class="item_plate clearfix">
+				<div class=" newTitle">
+					<h2>新款上市</h2>
+					<p>2018/08/22</p>
+				</div>
+				<div class="new_photo">
+					<img src="img/new04.jpg" alt="">
+					<p>第三季新款主打上市，部落客搭配示範<span class="new_enter"><a href="#" >more</a></span>	
+					</p>
+				</div>
+			</div>
+			<div class="item_plate clearfix">
+				<div class="newTitle">
+					<h2>臉型選擇搭配</h2>
+					<p>2018/08/22</p>
+				</div>
+				<div class="new_photo">
+					<img src="img/new03.png" alt="">
+					<p>網美分享眼鏡與臉型的選擇與搭配方式<span class="new_enter"><a href="#" >more</a></span>	
+					</p>
+				</div>
+			</div>
+			<div class="item_plate clearfix">
+				<div class=" newTitle">
+					<h2>4EYES X 未來的未來</h2>
+					<p>2018/08/22</p>
+				</div>
+				<div class="new_photo">
+					<img src="img/new06.png" alt="">
+					<p>4EYES與未來的未來聯名出款最新款式<span class="new_enter"><a href="#" >more</a></span>	
+					</p>
+				</div>
+			</div>
+			<div class="item_plate clearfix">
+				<div class=" newTitle">
+					<h2>Classic + Ultem</h2>
+					<p>2018/08/22</p>
+				</div>
+				<div class="new_photo">
+					<img src="img/new05.png" alt="">
+					<p>使用於太空船・飛機零件上的Ultem，為全世界最受矚目的新材質，輕薄及高度延展性，踩壓碰撞也不易壞損。<span class="new_enter"><a href="#" >more</a></span>	
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<a href="#">Instagram</a>
+		<a href="#">Facebook</a>
+		<a href="#">Contact us</a>
+		<p>copyright 2018</p>
+	</div>
+
+	<a href="#gotop" class="top">TOP</a>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.top').click(function(){
+				$('html,body').animate({ scrollTop: 0 }, 'slow'); 
+				return false;
+			});
+			 
+			$(window).scroll(function() {
+				if ( $(this).scrollTop() > 400){
+					$('.top').fadeIn();
+				} else {
+					$('.top').fadeOut();
+				}
+			});
+		});
+	</script>
+		
+</body>
+
+</html>
